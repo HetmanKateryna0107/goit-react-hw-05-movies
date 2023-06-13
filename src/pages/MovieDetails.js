@@ -14,6 +14,7 @@ const MovieDetails = () => {
     });
   }, [movieId]);
   if (!movieInfo) return;
+  console.log(movieInfo);
   return (
     <>
       <Link to={location?.state?.from || '/'}>
@@ -29,6 +30,8 @@ const MovieDetails = () => {
         width="150px"
       />
       <h2>{movieInfo.title}</h2>
+      <p>{movieInfo.overview}</p>
+
       <ul>
         <li>
           <Link to="cast">Cast</Link>
