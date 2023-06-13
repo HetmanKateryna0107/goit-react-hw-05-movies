@@ -14,7 +14,7 @@ const MovieDetails = () => {
     });
   }, [movieId]);
   if (!movieInfo) return;
-  console.log(movieInfo);
+
   return (
     <>
       <Link to={location?.state?.from || '/'}>

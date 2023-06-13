@@ -1,6 +1,6 @@
 import { getMovieByName } from 'Service/serviceApi';
-import { MovieList } from 'pages/MovieList';
-import { SearchMovies } from 'pages/SearchMovise';
+import { MovieList } from 'components/MovieList';
+import { SearchMovies } from 'components/SearchMovise';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 

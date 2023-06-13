@@ -17,13 +17,3 @@ export const MovieList = ({ movies }) => {
     </ul>
   );
 };
-
-// const App = () => {
-// ;
-
-//   useEffect(() => {
-//     Analytics.send(location);
-//   }, [location]);
-
-//   return <div>...</div>;
-// };
